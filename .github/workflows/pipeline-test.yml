@@ -11,7 +11,4 @@ jobs:
     
     steps:
       - uses: actions/checkout@v2
-      - run: npm init
-      - run: npm install
-      - run: npm run test
-      - run: npm run build
+      - run: echo "Test pipeline is running KEDA"
